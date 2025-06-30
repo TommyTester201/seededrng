@@ -9,7 +9,7 @@ def generate_two_digit(seed_string):
     random.seed(numeric_seed)
     return random.randint(10, 99)
 
-st.title("Assignment Code Generator")
+st.title("Your number for 4001 A2")
 
 email = st.text_input("Enter your email address")
 
